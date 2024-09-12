@@ -222,8 +222,7 @@ main {
 
 @media (max-width: 1200px) {
     .home-section .home-intro h1 {
-        margin: 0 0 25px;
-        font-size: 45px;
+        font-size: 60px;
     }
 }
 
@@ -231,5 +230,36 @@ main {
     .home-section .home-intro h1 {
         margin: 0 0 25px;
         font-size: 45px;
+    }
+}
+
+.home-section .home-intro h1 span {
+    border-bottom: 2px solid #FEC448;
+}
+
+.home-section .home-intro p {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .home-section .home-intro p {
+        font-size: 10px;
+    }
+}
+
+.home-image img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+    z-index: -2;
+}
+
+@media (max-width: 767px) {
+    .home-image img {
+        height: 300px;
+        width: 300px;
     }
 }
