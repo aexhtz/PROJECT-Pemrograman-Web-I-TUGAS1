@@ -490,3 +490,7 @@ main {
 .juniorweb-dev {
     color: var(--primary-color);
 }
+
+.gambar-skills {
+    height: 85%;
+}
