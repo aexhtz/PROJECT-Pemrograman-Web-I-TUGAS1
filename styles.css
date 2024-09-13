@@ -494,3 +494,121 @@ main {
 .gambar-skills {
     height: 85%;
 }
+
+/* Portfolio Section */
+.portfolio-box .portfolio-img {
+    position: relative;
+    border: 2px solid var(--dark-color);
+    box-shadow: 0 0 0 0 var(--dark-color);
+    transition: 0.3s;
+}
+
+.portfolio-box .portfolio-img:hover {
+    box-shadow: 5px 5px 0 0 var(--dark-color);
+}
+
+.portfolio-box .portfolio-text span {
+    display: inline-block;
+    padding: 8px 20px;
+    background: rgba(255,101,28,2);
+    color: var(--dark-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 30px;
+    margin-bottom: 18px;
+}
+
+.portfolio-box .portfolio-text h4 {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .portfolio-box .portfolio-text h4 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}
+
+.portfolio-box .portfolio-text .colored-btn {
+    font-size: 12px;
+}
+
+/* Contact Section */
+.contact-form {
+    padding: 3px;
+    background: #fff;
+}
+
+@media (max-width: 767px) {
+    .contact-form {
+        padding: 25px;
+    }
+}
+
+.contact-form .lead {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+
+.contact-form .form-control {
+    border-radius: 0;
+    border: 1px solid var(--dark-color);
+    box-shadow: none;
+    padding: 0.575rem .75rem;
+}
+
+.contact-infos {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-infos li {
+    display: flex;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.contact-infos li:last-child {
+    padding-bottom: 0;
+}
+
+.contact-infos .icon {
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    padding-top: 15px;
+    justify-content: center;
+    color: var(--dark-color);
+    font-size: 25px;
+}
+
+.contact-infos h5 {
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: var(--dark-color);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-infos p {
+    margin: 0;
+    font-size: 20px;
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+.icon2 {
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
+.bx-envelope {
+    padding-right: 55px;
+}
